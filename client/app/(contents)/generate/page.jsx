@@ -10,7 +10,7 @@ const SendEmailPage = () => {
   const [ReportLoading, setReportLoading] = useState(false);
   const [Select, setSelect] = useState("");
   const router = useRouter();
-  const API_KEY = "";
+  const API_KEY = "YOUR KEY";
   const genAI = new GoogleGenerativeAI(API_KEY);
 
   const [Flags, setFlags] = useState({
